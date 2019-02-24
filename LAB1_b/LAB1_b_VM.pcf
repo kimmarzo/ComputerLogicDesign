@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.68d on Sun Feb 24 17:53:35 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "W" LOCATE = SITE "M8" LEVEL 1;
+COMP "F1" LOCATE = SITE "V16" LEVEL 1;
+COMP "X" LOCATE = SITE "V9" LEVEL 1;
+COMP "Y" LOCATE = SITE "T9" LEVEL 1;
+COMP "Z" LOCATE = SITE "T10" LEVEL 1;
+SCHEMATIC END;
+

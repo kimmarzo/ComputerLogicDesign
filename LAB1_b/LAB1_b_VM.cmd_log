@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b/LAB1_b_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b/LAB1_b_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB1_b_TEMP.ucf -p xc6slx16-csg324-2 "LAB1_b_VM.ngc" LAB1_b_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB1_b_VM_map.ncd LAB1_b_VM.ngd LAB1_b_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB1_b_VM_map.ncd LAB1_b_VM.ncd LAB1_b_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB1_b_VM.twx LAB1_b_VM.ncd -o LAB1_b_VM.twr LAB1_b_VM.pcf -ucf LAB1_b_TEMP.ucf 
+bitgen -intstyle ise -f LAB1_b_VM.ut LAB1_b_VM.ncd 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b/LAB1_b_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b/LAB1_b_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB1_b_TEMP.ucf -p xc6slx16-csg324-2 "LAB1_b_VM.ngc" LAB1_b_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB1_b_VM_map.ncd LAB1_b_VM.ngd LAB1_b_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB1_b_VM_map.ncd LAB1_b_VM.ncd LAB1_b_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB1_b_VM.twx LAB1_b_VM.ncd -o LAB1_b_VM.twr LAB1_b_VM.pcf -ucf LAB1_b_TEMP.ucf 
+bitgen -intstyle ise -f LAB1_b_VM.ut LAB1_b_VM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LAB1_b_TEMP.ucf -p xc6slx16-csg324-2 "LAB1_b_VM.ngc" LAB1_b_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB1_b_VM_map.ncd LAB1_b_VM.ngd LAB1_b_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB1_b_VM_map.ncd LAB1_b_VM.ncd LAB1_b_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB1_b_VM.twx LAB1_b_VM.ncd -o LAB1_b_VM.twr LAB1_b_VM.pcf -ucf LAB1_b_TEMP.ucf 
+bitgen -intstyle ise -f LAB1_b_VM.ut LAB1_b_VM.ncd 

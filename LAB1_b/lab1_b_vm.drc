@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Feb 24 17:54:19 2019
+
+drc -z LAB1_b_VM.ncd LAB1_b_VM.pcf
+
+DRC detected 0 errors and 0 warnings.
