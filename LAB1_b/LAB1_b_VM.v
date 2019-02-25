@@ -1,22 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Designer: Kim Marzo
+// Date:    16:57:17 02/24/2019 
+// Email: kjrmarzo@gmail.com
 // 
-// Create Date:    16:57:17 02/24/2019 
-// Design Name: 
-// Module Name:    LAB1_b_VM 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
+// Description: CECS 201 Lab Session 1 - Combinational Logic Design
+// 
 //////////////////////////////////////////////////////////////////////////////////
 module LAB1_b_VM(
     input W,

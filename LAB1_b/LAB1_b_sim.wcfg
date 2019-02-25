@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b/LAB1_b_TF_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="LAB1_b_TF" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="divider6" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LAB1_b_TF/W" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LAB1_b_TF/X" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">X</obj_property>
+      <obj_property name="ObjectShortName">X</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LAB1_b_TF/Y" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Y</obj_property>
+      <obj_property name="ObjectShortName">Y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LAB1_b_TF/Z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider7" type="divider">
+      <obj_property name="label">Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LAB1_b_TF/F1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">F1</obj_property>
+      <obj_property name="ObjectShortName">F1</obj_property>
+   </wvobject>
+</wave_config>

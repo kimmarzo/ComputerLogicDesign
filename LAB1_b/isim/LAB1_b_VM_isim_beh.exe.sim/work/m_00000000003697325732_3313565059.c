@@ -531,6 +531,6 @@ LAB1:    return;
 extern void work_m_00000000003697325732_3313565059_init()
 {
 	static char *pe[] = {(void *)Gate_20_0,(void *)Gate_20_1,(void *)Gate_20_2,(void *)Gate_20_3,(void *)Gate_20_4};
-	xsi_register_didat("work_m_00000000003697325732_3313565059", "isim/LAB1_b_TF_isim_beh.exe.sim/work/m_00000000003697325732_3313565059.didat");
+	xsi_register_didat("work_m_00000000003697325732_3313565059", "isim/LAB1_b_VM_isim_beh.exe.sim/work/m_00000000003697325732_3313565059.didat");
 	xsi_register_executes(pe);
 }

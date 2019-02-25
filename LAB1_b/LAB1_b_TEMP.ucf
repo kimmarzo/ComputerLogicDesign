@@ -21,8 +21,8 @@ NET "W"      LOC = "m8"   ;
 # NET "btnR"       LOC = "d9"   ;   
 
 # LED's
-# NET "F1"    LOC = "u16"  ; 
-NET "F1"    LOC = "v16"  ; 
+ NET "F1"    LOC = "u16"  ; 
+#NET "F1"    LOC = "v16"  ; 
 # NET "leds<2>"    LOC = "u15"  ; 
 # NET "leds<3>"    LOC = "v15"  ; 
 # NET "leds<4>"    LOC = "m11"  ;   

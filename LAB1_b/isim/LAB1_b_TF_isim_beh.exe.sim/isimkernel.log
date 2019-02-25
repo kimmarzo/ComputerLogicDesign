@@ -1,10 +1,33 @@
 Command line:
    LAB1_b_TF_isim_beh.exe
      -simmode  gui
-     -simrunnum  1
-     -socket  57257
+     -simrunnum  0
+     -socket  49528
 
-Sun Feb 24 17:52:53 2019
+Mon Feb 25 01:14:55 2019
 
 
- Elaboration Time: 0.109375 sec
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 531.628 Meg
+
+ Total Signals          : 23
+ Total Nets             : 22
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 106
+Total Line Count : 33
+Total Line Count : 33
+Total Line Count : 33
+Total Line Count : 33
+Total Line Count : 33
+
+ Total Simulation Time: 0.390625 sec
+
+ Current Memory Usage: 374.137 Meg
+
+Mon Feb 25 11:08:27 2019
+
