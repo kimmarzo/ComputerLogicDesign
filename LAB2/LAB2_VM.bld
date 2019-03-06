@@ -1,0 +1,37 @@
+Release 14.6 ngdbuild P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -uc lab2_pin.ucf -p xc6slx16-csg324-2 LAB2_VM.ngc
+LAB2_VM.ngd
+
+Reading NGO file "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB2/LAB2_VM.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "lab2_pin.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 151952 kilobytes
+
+Writing NGD file "LAB2_VM.ngd" ...
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "LAB2_VM.bld"...

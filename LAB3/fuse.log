@@ -1,0 +1,9 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB3_isim_beh.exe -prj C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB3_beh.prj work.LAB3 work.glbl 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB2for3_VM_sourcecopy.v" into library work
+Analyzing Verilog file "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB3.v" into library work
+ERROR:HDLCompiler:806 - "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB3.v" Line 35: Syntax error near "endmodule".
+Verilog file C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB3.v ignored due to errors

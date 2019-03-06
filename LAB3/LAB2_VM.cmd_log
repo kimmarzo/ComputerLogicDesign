@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB2_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3/LAB2_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-2 "LAB2_VM.ngc" LAB2_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB2_VM_map.ncd LAB2_VM.ngd LAB2_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB2_VM_map.ncd LAB2_VM.ncd LAB2_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB2_VM.twx LAB2_VM.ncd -o LAB2_VM.twr LAB2_VM.pcf 

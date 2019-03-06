@@ -1,0 +1,72 @@
+# Pinouts for Nexys3 Board  (Spartan6-XC6SLX16-324)
+
+# Start I/O Pin Assignments
+# NET "clk"        LOC = "v10"  ;    # 100 MHz board clock
+
+# Slide Switches
+ NET "Cin"      LOC = "t10"  ; 
+ NET "B"      LOC = "t9"   ; 
+ NET "A"      LOC = "v9"   ; 
+ NET "M"      LOC = "m8"   ; 
+# NET "sw<4>"      LOC = "n8"   ; 
+# NET "sw<5>"      LOC = "u8"   ; 
+# NET "sw<6>"      LOC = "v8"   ; 
+# NET "sw<7>"      LOC = "t5"   ;
+
+# Push Buttons
+# NET "btnU"       LOC = "a8"   ;   # typically used for reset 
+# NET "btnF"       LOC = "b8"   ;
+# NET "btnD"       LOC = "c9"   ;   # typically used for one shot single step
+# NET "btnL"       LOC = "c4"   ; 
+# NET "btnR"       LOC = "d9"   ;   
+
+# LED's
+ NET "Y"    LOC = "u16"  ; 
+ NET "CB"    LOC = "v16"  ; 
+# NET "leds<2>"    LOC = "u15"  ; 
+# NET "leds<3>"    LOC = "v15"  ; 
+# NET "leds<4>"    LOC = "m11"  ;   
+# NET "leds<5>"    LOC = "n11"  ;  
+# NET "leds<6>"    LOC = "r11"  ;   
+# NET "leds<7>"    LOC = "t11"  ;   
+
+# 7-segment Display 
+# NET "anodes<0>"  LOC = "n16"  ;
+# NET "anodes<1>"  LOC = "n15"  ;
+# NET "anodes<2>"  LOC = "p18"  ;
+# NET "anodes<3>"  LOC = "p17"  ;
+# NET "a"          LOC = "t17"  ;
+# NET "b"          LOC = "t18"  ;
+# NET "c"          LOC = "u17"  ;
+# NET "d"          LOC = "u18"  ;
+# NET "e"          LOC = "m14"  ;
+# NET "f"          LOC = "n14"  ;
+# NET "g"          LOC = "l14"  ;
+# NET "dp"         LOC = "m13"  ;
+
+# RS-232
+# NET "RxD"        LOC = "n17"  ;  
+# NET "TxD"        LOC = "n18"  ; 
+
+# VGA Graphics 
+# NET "vgaRed<0>"   LOC= "U7"   ; 
+# NET "vgaRed<1>"   LOC= "V7"   ; 
+# NET "vgaRed<2>"   LOC= "N7"   ; 
+# NET "vgaGreen<0>" LOC= "N8"   ; 
+# NET "vgaGreen<1>" LOC= "T6"   ; 
+# NET "vgaGreen<2>" LOC= "V6"   ; 
+# NET "vgaBlue<1>"  LOC= "R7"   ; 
+# NET "vgaBlue<2>"  LOC= "T7"   ; 
+# NET "Hsync"       LOC= "N6"   ; 
+# NET "Vsync"       LOC= "P7"   ; 
+
+# PS2 KB port (clock and data)
+# NET "PS2_KBClk"   LOC= "L12"  ; 
+# NET "PS2_KBData   LOC= "J13"  ; 
+
+
+# PS2 Mouse port (clock and data)
+# NET "PS2_MClk"   LOC= "L13"  ; 
+# NET "PS2_MData   LOC= "K14"  ; 
+
+
