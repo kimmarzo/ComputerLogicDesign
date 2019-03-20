@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-02-25T16:00:46</DateModified>
+  <DateModified>2019-03-18T12:12:25</DateModified>
   <ModuleName>LAB1_b_VM</ModuleName>
   <SummaryTimeStamp>2019-02-24T17:12:32</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b/iseconfig/LAB1_b_VM.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Kim Marzo/Desktop/CECS201/LAB1_b\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB1_b/iseconfig/LAB1_b_VM.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB1_b\</ImplementationReportsDirectory>
   <DateInitialized>2019-02-24T16:57:18</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

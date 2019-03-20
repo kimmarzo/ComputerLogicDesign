@@ -1,0 +1,6 @@
+Command line:
+   priority_encoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59427
+

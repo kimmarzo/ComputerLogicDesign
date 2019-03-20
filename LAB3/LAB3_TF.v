@@ -38,15 +38,25 @@ module LAB3_TF;
 	LAB3 uut (
 		.M(M), 
 		.A(A), 
+		.Cin(Cin),
 		.B(B), 
-		.Cin(Cin), 
 		.Y(Y), 
 		.CB(CB)
 	);
 
 	initial begin
-		{M,A,B,Cin}= 10'b0_1000_011_0; //CB = 0 Y = 1111 
-		{M,A,B,Cin} = 10'b0_1010_1000_0; //CB = 
+		{Cin,M,A,B}= 10'h0_0_8_7; #10; 
+		{Cin,M,A,B}= 10'h0_0_A_8; #10; 
+		{Cin,M,A,B}= 10'h0_0_6_D; #10; 
+		{Cin,M,A,B}= 10'h0_0_E_E; #10; 
+		{Cin,M,A,B}= 10'h0_0_C_4; #10; 
+		{Cin,M,A,B}= 10'h0_1_9_5; #10; 
+		{Cin,M,A,B}= 10'h0_1_D_E; #10; 
+		{Cin,M,A,B}= 10'h0_1_7_2; #10; 
+		{Cin,M,A,B}= 10'h0_1_6_F; #10; 
+		{Cin,M,A,B}= 10'h0_1_1_9; #10; 
+	$finish;
+		
 	end
       
 endmodule

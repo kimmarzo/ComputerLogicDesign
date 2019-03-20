@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Kim Marzo\Desktop\LAB4_c\priority_encoder.ncd
+OUTFILE=C:\Users\Kim Marzo\Desktop\LAB4_c\priority_encoder.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\Kim Marzo\Desktop\LAB4_c
+LICENSE=WebPack
+USER_INFO=211676287_0_0_336

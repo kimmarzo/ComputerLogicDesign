@@ -1,0 +1,4 @@
+verilog isim_temp "LAB2for3_VM_sourcecopy.v"
+verilog isim_temp "LAB3.v"
+verilog isim_temp "LAB3_TF.v"
+verilog isim_temp "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

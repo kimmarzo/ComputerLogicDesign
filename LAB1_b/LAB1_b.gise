@@ -114,9 +114,10 @@
       <outfile xil_pn:name="LAB1_b_TF.v"/>
       <outfile xil_pn:name="LAB1_b_VM.v"/>
     </transform>
-    <transform xil_pn:end_ts="1551075112" xil_pn:in_ck="-318381904855089659" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6532678313892146593" xil_pn:start_ts="1551075109">
+    <transform xil_pn:end_ts="1552925400" xil_pn:in_ck="-318381904855089659" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6532678313892146593" xil_pn:start_ts="1552925397">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="LAB1_b_TF_beh.prj"/>
@@ -126,9 +127,11 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1551075292" xil_pn:in_ck="8527130356284927163" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1499137845283761724" xil_pn:start_ts="1551075292">
+    <transform xil_pn:end_ts="1552925493" xil_pn:in_ck="8527130356284927163" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1499137845283761724" xil_pn:start_ts="1552925493">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="LAB1_b_TF_isim_beh.wdb"/>

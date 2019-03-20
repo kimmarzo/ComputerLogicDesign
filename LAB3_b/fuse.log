@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_B_TF_isim_beh.exe -prj C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_B_TF_beh.prj work.LAB3_B_TF work.glbl 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB2_VM.v" into library work
+Analyzing Verilog file "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.v" into library work
+Analyzing Verilog file "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_B_TF.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.v" Line 24: Size mismatch in connection of port <Cin>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 101676 KB
+Fuse CPU Usage: 280 ms
+Compiling module LAB2_VM
+Compiling module LAB3_b
+Compiling module LAB3_B_TF
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_B_TF_isim_beh.exe
+Fuse Memory Usage: 106128 KB
+Fuse CPU Usage: 327 ms

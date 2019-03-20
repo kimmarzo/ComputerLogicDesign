@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB3_b.ngc" LAB3_b.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB3_b_map.ncd LAB3_b.ngd LAB3_b.pcf 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB3_b.ngc" LAB3_b.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB3_b_map.ncd LAB3_b.ngd LAB3_b.pcf 
+par -w -intstyle ise -ol high -mt off LAB3_b_map.ncd LAB3_b.ncd LAB3_b.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB3_b.twx LAB3_b.ncd -o LAB3_b.twr LAB3_b.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB3_b.ut LAB3_b.ncd 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB3_b.ngc" LAB3_b.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB3_b_map.ncd LAB3_b.ngd LAB3_b.pcf 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB3_b/LAB3_b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB3_b.ngc" LAB3_b.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB3_b_map.ncd LAB3_b.ngd LAB3_b.pcf 
+par -w -intstyle ise -ol high -mt off LAB3_b_map.ncd LAB3_b.ncd LAB3_b.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB3_b.twx LAB3_b.ncd -o LAB3_b.twr LAB3_b.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB3_b.ut LAB3_b.ncd 

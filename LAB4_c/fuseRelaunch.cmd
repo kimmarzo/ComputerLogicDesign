@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Kim Marzo/Desktop/LAB4_c/priority_encoder_TF_isim_beh.exe" -prj "C:/Users/Kim Marzo/Desktop/LAB4_c/priority_encoder_TF_beh.prj" "work.priority_encoder_TF" "work.glbl" 

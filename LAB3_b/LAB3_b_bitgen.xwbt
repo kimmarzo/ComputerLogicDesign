@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Kim Marzo\Desktop\CS_S19\CECS201\LAB3_b\LAB3_b.ncd
+OUTFILE=C:\Users\Kim Marzo\Desktop\CS_S19\CECS201\LAB3_b\LAB3_b.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\Kim Marzo\Desktop\CS_S19\CECS201\LAB3_b
+LICENSE=WebPack
+USER_INFO=211676287_0_0_336
