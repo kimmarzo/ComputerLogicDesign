@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml LAB5_VM.twx LAB5_VM.ncd -o LAB5_VM.twr LAB5_VM.pcf -ucf
+Nexys3_6SLX16_Template.ucf
+
+Design file:              LAB5_VM.ncd
+Physical constraint file: LAB5_VM.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+hex<0>         |a              |    9.884|
+hex<0>         |b              |    9.750|
+hex<0>         |c              |    9.715|
+hex<0>         |d              |    9.574|
+hex<0>         |e              |    9.396|
+hex<0>         |f              |    9.769|
+hex<0>         |g              |    9.452|
+hex<1>         |a              |   10.035|
+hex<1>         |b              |   10.297|
+hex<1>         |c              |   10.210|
+hex<1>         |d              |    9.725|
+hex<1>         |e              |    9.851|
+hex<1>         |f              |   10.264|
+hex<1>         |g              |    9.907|
+hex<2>         |a              |   10.180|
+hex<2>         |b              |   10.200|
+hex<2>         |c              |   10.318|
+hex<2>         |d              |    9.870|
+hex<2>         |e              |    9.942|
+hex<2>         |f              |   10.372|
+hex<2>         |g              |    9.998|
+hex<3>         |a              |   10.009|
+hex<3>         |b              |   10.338|
+hex<3>         |c              |    9.918|
+hex<3>         |d              |    9.699|
+hex<3>         |e              |    9.630|
+hex<3>         |f              |    9.972|
+hex<3>         |g              |    9.686|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 25 15:34:38 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 168 MB
+
+
+

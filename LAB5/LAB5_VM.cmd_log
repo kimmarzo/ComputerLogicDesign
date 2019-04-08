@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB5_VM.ngc" LAB5_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB5_VM_map.ncd LAB5_VM.ngd LAB5_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB5_VM_map.ncd LAB5_VM.ncd LAB5_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB5_VM.twx LAB5_VM.ncd -o LAB5_VM.twr LAB5_VM.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB5_VM.ut LAB5_VM.ncd 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB5_VM.ngc" LAB5_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB5_VM_map.ncd LAB5_VM.ngd LAB5_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB5_VM_map.ncd LAB5_VM.ncd LAB5_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB5_VM.twx LAB5_VM.ncd -o LAB5_VM.twr LAB5_VM.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB5_VM.ut LAB5_VM.ncd 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB5_VM.ngc" LAB5_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB5_VM_map.ncd LAB5_VM.ngd LAB5_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB5_VM_map.ncd LAB5_VM.ncd LAB5_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB5_VM.twx LAB5_VM.ncd -o LAB5_VM.twr LAB5_VM.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB5_VM.ut LAB5_VM.ncd 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB5_VM.ngc" LAB5_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB5_VM_map.ncd LAB5_VM.ngd LAB5_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB5_VM_map.ncd LAB5_VM.ncd LAB5_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB5_VM.twx LAB5_VM.ncd -o LAB5_VM.twr LAB5_VM.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB5_VM.ut LAB5_VM.ncd 
+xst -intstyle ise -ifn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.xst" -ofn "C:/Users/Kim Marzo/Desktop/CS_S19/CECS201/LAB5/LAB5_VM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_6SLX16_Template.ucf -p xc6slx16-csg324-2 "LAB5_VM.ngc" LAB5_VM.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LAB5_VM_map.ncd LAB5_VM.ngd LAB5_VM.pcf 
+par -w -intstyle ise -ol high -mt off LAB5_VM_map.ncd LAB5_VM.ncd LAB5_VM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml LAB5_VM.twx LAB5_VM.ncd -o LAB5_VM.twr LAB5_VM.pcf -ucf Nexys3_6SLX16_Template.ucf 
+bitgen -intstyle ise -f LAB5_VM.ut LAB5_VM.ncd 

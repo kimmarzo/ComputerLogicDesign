@@ -1,0 +1,10 @@
+Command line:
+   LAB5_TF_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53742
+
+Mon Mar 25 15:33:57 2019
+
+
+ Elaboration Time: 0.125 sec
